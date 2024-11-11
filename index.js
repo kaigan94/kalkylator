@@ -1,6 +1,6 @@
 function calculator() {
-  let number1 = prompt("Choose the first number");
-  let number2 = prompt("Choose the second number");
+  let number1 = parseFloat(prompt("Choose the first number"));
+  let number2 = parseFloat(prompt("Choose the second number"));
   let operation = prompt("Choose operation (+, -, *, /):");
 
   let result;
